@@ -6,7 +6,6 @@ Gem::Specification.new do |s|
   s.authors     = ["Alex Reisner"]
   s.email       = ["alex@alexreisner.com"]
   s.homepage    = "http://www.github.com/alexreisner/smart_chart"
-  s.date        = Date.today.to_s
   s.summary     = "Easily create charts and graphs for the web (using Google Charts)."
   s.description = "Easily create charts and graphs for the web (using Google Charts)."
   s.files       = `git ls-files`.split("\n") - %w[smart_chart.gemspec Gemfile]
